@@ -1,0 +1,9 @@
+h3{
+    font-family: 'Trebuchet MS';
+    font-size: 50px;
+    text-align:center;
+    color: rgb(238, 237, 238);
+}
+body {
+    background-color: green;
+}
