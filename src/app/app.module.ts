@@ -8,8 +8,6 @@ import { ProjectComponent } from './project/project.component';
 import { ContactComponent } from './contact/contact.component';
 import { TestComponent } from './test/test.component';
 import { AppRoutingModule } from './/app-routing.module';
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,8 +18,8 @@ import { AppRoutingModule } from './/app-routing.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-  ],
+    AppRoutingModule,
+   ],
   providers: [],
   bootstrap: [AppComponent]
 })
