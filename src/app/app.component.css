@@ -1,4 +1,7 @@
 .navbar-brand{
     color: rgb(17, 202, 116);
 }
-
+.nav-link{
+    font-size: 18px;
+    margin-top: 5px;
+}

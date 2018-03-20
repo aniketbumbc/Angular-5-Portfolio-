@@ -25,60 +25,17 @@
     line-height: 1;
 
 }
-
 #myFooter h5{
 	font-size: 18px;
-    color:rgb(17, 202, 116);
-  
+    color:rgb(17, 202, 116);  
     margin-top: 5px;
 }
-
-#myFooter a{
-	color:#d2d1d1;
-	text-decoration: none;
+#myFooter  h5:hover{
+	color: deeppink;
 }
-
-#myFooter a:hover, #myFooter a:focus{
-	text-decoration: none;
-	color:white;
-}
-
 #myFooter .myCols{
 	text-align: center;
 }
-
-#myFooter .social-networks{
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 38px;
-}
-
-#myFooter .social-networks a{
-    font-size: 32px;
-    margin-right: 5px;
-    margin-left: 5px;
-    color: #f9f9f9;
-    padding: 10px;
-    transition: 0.2s;
-}
-
-#myFooter .social-networks a:hover{
-	text-decoration: none;
-
-}
-
-#myFooter .facebook:hover{
-	color:#0077e2;
-}
-
-#myFooter .google:hover{
-	color:#ef1a1a;
-}
-
-#myFooter .twitter:hover{
-	color: #00aced;
-}
-
 @media screen and (max-width: 767px){
 	#myFooter {
 		text-align: center;
@@ -102,13 +59,6 @@ body{
     -webkit-flex-direction: column;
     height: 100%;
 }
-
-.content{
-	flex: 1 0 auto;
-	-webkit-flex: 1 0 auto;
-	min-height: 200px;
-}
-
 #myFooter{
 	flex: 0 0 auto;
     -webkit-flex: 0 0 auto;

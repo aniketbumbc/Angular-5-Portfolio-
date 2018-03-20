@@ -35,10 +35,11 @@
 }
 .sticky li p a{
     text-decoration:none;
-    color:rgb(22, 22, 22);
+    color:rgb(17, 202, 116);
     font-size: 15px;
-    font-family: 'Courier New'
+    font-family: 'Courier New';
 }
 .sticky li p a:hover{
     text-decoration:underline;
+    color: deeppink;
 }
