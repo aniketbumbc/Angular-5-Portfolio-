@@ -8,7 +8,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active" >
+      <li class="nav-item active">
         <a class="nav-link" routerLink="/Home">Home
           <span class="sr-only">(current)</span>
         </a>
@@ -29,9 +29,86 @@
     </form>
   </div>
 </nav>
+<router-outlet></router-outlet>
+<body>
 
-<div class="footer">
-  <p>Made by Aniket.B © 2018 </p>
-  </div>
+  <footer id="myFooter">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 myCols">
+            <a class="nav-link" routerLink="/Home"> <h5> Aniket.B </h5>
+              <span class="sr-only">(current)</span>
+            </a>        
+        </div>
+        <div class="col-sm-3 myCols">
+            <a class="nav-link" routerLink="/Project"><h5>Projects</h5></a>          
+        </div>
+        <div class="col-sm-3 myCols">
+            <a class="nav-link" routerLink="/Contact"><h5>Contact</h5></a>
+        </div>
+        <div class="col-sm-3 myCols">
+            <a class="nav-link" routerLink="/Test"><h5>Test</h5></a>
+        </div>
+      </div>
+    </div>
 
-  <router-outlet></router-outlet>
+    <div class="footer-copyright">
+      © 2018 Copyright Aniket. B (ANGULAR-5)
+    </div>
+  </footer>
+
+</body>
+
+
+
+<!-- Sticky Social Media Icon -->
+
+
+<div class="sticky-container">
+  <ul class="sticky">
+    <li>
+      <img src='../assets/Social Media/facebook-128.png' width="32" height="32">
+      <p>
+        <a href="https://www.facebook.com" target="_blank">Like Us on
+          <br>Facebook</a>
+      </p>
+
+    </li>
+    <li>
+      <img src="../assets/Social Media/twitter.png" width="32" height="32">
+      <p>
+        <a href="https://twitter.com" target="_blank">Follow Us on
+          <br>Twitter</a>
+      </p>
+    </li>
+    <li>
+      <img src="../assets/Social Media/google-plus.png" width="32" height="32">
+      <p>
+        <a href="https://plus.google.com" target="_blank">Follow Us on
+          <br>Google+</a>
+      </p>
+    </li>
+    <li>
+      <img src="../assets/Social Media/linkedin.png" width="32" height="32">
+      <p>
+        <a href="https://www.linkedin.com/company" target="_blank">Follow Us on
+          <br>LinkedIn</a>
+      </p>
+    </li>
+    <li>
+      <img src="../assets/Social Media/youtube.png" width="32" height="32">
+      <p>
+        <a href="http://www.youtube.com" target="_blank">Subscribe on
+          <br>YouYube</a>
+      </p>
+    </li>
+    <li>
+      <img src="../assets/Social Media/Pinterest.svg" width="32" height="32">
+      <p>
+        <a href="https://www.pinterest.com" target="_blank">Follow Us on
+          <br>Pinterest</a>
+      </p>
+    </li>
+  </ul>
+</div>
+
