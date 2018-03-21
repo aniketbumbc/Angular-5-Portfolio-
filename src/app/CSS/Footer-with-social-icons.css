@@ -1,20 +1,20 @@
 #myFooter {
 	background-color: #01030e;
 	color:rgb(17, 202, 116);
-	position:absolute;
-	bottom:0;
+	position:fixed;
+	bottom:0px;
 	width:100%;
 }
 
 #myFooter .footer-copyright{
 	background-color: #383737;
-	padding-top:3px;
-	padding-bottom:3px;
+	padding-top:1px;
+	padding-bottom:1px;
 	text-align: center;
 }
 
 #myFooter .footer-copyright p{
-	margin:10px;
+	margin:5px;
 	color:rgb(17, 202, 116);
 	font-family: 'Segoe UI'
 }
