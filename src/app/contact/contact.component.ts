@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
@@ -7,12 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 fullPathImage:string;
+
 model:sendData=new sendData();
+@ViewChild('f') form:any;
   constructor() {
     this.fullPathImage='assets/image 2.PNG';
    }
 
   ngOnInit() {
+  }
+  onSubmit(){
+    console.log("Form Submitted");
+    console.log(this.form.value);
+    this.form.reset();
+   // console.log(value);
   }
 }
 class sendData{
